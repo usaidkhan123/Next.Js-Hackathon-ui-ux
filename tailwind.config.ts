@@ -1,3 +1,4 @@
+import { hasCustomGetInitialProps } from "next/dist/build/utils";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,6 +21,7 @@ export default {
         custom5c: "rgba(250, 250, 250, 1)",
         custom5d:"rgba(35, 133, 109, 1)",
         custom6:"rgba(221, 221, 221, 1)",
+        custom6a: "rgba(178, 227, 255, 1)",
       },
     },
   },

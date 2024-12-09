@@ -18,7 +18,7 @@ import svg15 from '@/public/images/Register.svg'
 const Header = () => {
     return (
         <div>
-            <div className="bg-custom h-[58px] sm:w-full flex text-white max-sm:hidden max-md:hidden"> 
+            <div className="bg-custom h-[58px] sm:w-full flex text-white max-sm:hidden max-md:hidden "> 
             <Image
           src={svg4}
           alt="company logo"
@@ -32,7 +32,7 @@ const Header = () => {
         />
                 <p className="text-[14px] font-[] leading-[24px] mt-4  ml-1">michelle.rivera@example.com</p>
                 <p className="text-[14px] font-[] leading-[24px] font-bold mt-4 lg:ml-24 xl:ml-72 ">Follow Us  and get a chance to win 80% off</p>
-                <p className="text-[14px] font-[] leading-[24px] mt-4 lg:ml-20 xl:ml-72">Follow Us  :</p>
+                <p className="text-[14px] font-[] leading-[24px]  mt-4 lg:ml-20  xl:ml-60">Follow Us  :</p>
                 <div className="flex space-x-2">
                 <Image
           src={svg6}
@@ -58,24 +58,24 @@ const Header = () => {
 
 
 
-            <div className="flex   mt-8">
+            <div className="flex   mt-8  md:items-center md:justify-center md:justify-items-center">
             <p className=" ml-10 text-[24px] font-[Montserrat] leading-[32px] font-bold">Bandage</p>
-            <div className=" flex  max-sm:hidden">
+            <div className=" flex  max-sm:hidden md:flex">
             <ul className="flex lg:space-x-[30px] lg:ml-36 xl:space-x-[45px] xl:ml-72 sm:ml-24 sm:space-x-[12px] -mt-1">
-                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Home</li>
-                <li  className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600">Shop</li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"> <Link href="/pp" target="_blank">Home</Link></li>
+                <li  className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/aboutus"}>Shop</Link></li>
                 <Image
           src={svg10}
           alt="company logo"
             className="ml-1 "
         />
                 <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href="/plp" target="_blank">About</Link></li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600">Blog</li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"> <Link href={"pricing"}>Blog</Link></li>
                 <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Contact</li>
                 <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Pages</li>
             </ul>
          </div>
-         <div className="flex sm:ml-6 lg:space-x-3 lg:ml-20 xl:ml-60 sm:space-x-2 max-sm:hidden">
+         <div className="flex sm:ml-6 lg:space-x-3 lg:ml-20 xl:ml-36 sm:space-x-2 max-sm:hidden">
          <Image
           src={svg11}
           alt="company logo"

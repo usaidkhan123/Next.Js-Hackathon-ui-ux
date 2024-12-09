@@ -16,7 +16,7 @@ const Hero2 = () => {
                     <h1 className="text-[24px] leading-[32px] font-bold">EDITORS PICK</h1>
                     <p className=" text-[14px] leading-[20px] text-custom3 mt-6 items-center text-center justify-center ">Problems trying to resolve <br  /> he conflict between </p>
                 </div>
-                <div className="mt-8 justify-items-center space-y-10 sm:hidden">
+                <div className="mt-8 justify-items-center lg:justify-items-center lg:justify-center lg:items-center space-y-10 sm:hidden">
                 <Image
           src={svg1}
           alt="company logo"

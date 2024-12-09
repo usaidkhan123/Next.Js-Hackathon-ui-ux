@@ -23,6 +23,7 @@ import svg21 from '@/public/images/mobile-clients-1.svg'
 import Footer from "../components/homepage/footer";
 import svg22 from '@/public/images/row (1).svg'
 import svg23 from '@/public/images/container (1).svg'
+import Products from "../components/homepage/products";
 const Header = () => {
     return (
         <div>
@@ -40,7 +41,7 @@ const Header = () => {
         />
                 <p className="text-[14px] font-[] leading-[24px] mt-4  ml-1">michelle.rivera@example.com</p>
                 <p className="text-[14px] font-[] leading-[24px] font-bold mt-4 lg:ml-24 xl:ml-72 ">Follow Us  and get a chance to win 80% off</p>
-                <p className="text-[14px] font-[] leading-[24px] mt-4 lg:ml-20 xl:ml-72">Follow Us  :</p>
+                <p className="text-[14px] font-[] leading-[24px] mt-4 lg:ml-20 xl:ml-60">Follow Us  :</p>
                 <div className="flex space-x-2">
                 <Image
           src={svg6}
@@ -83,7 +84,7 @@ const Header = () => {
                 <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Pages</li>
             </ul>
          </div>
-         <div className="flex sm:ml-6 lg:space-x-3 lg:ml-20 xl:ml-60 sm:space-x-2 max-sm:hidden">
+         <div className="flex sm:ml-6 lg:space-x-3 lg:ml-20 xl:ml-44 sm:space-x-2 max-sm:hidden">
          <Image
           src={svg11}
           alt="company logo"
@@ -187,7 +188,12 @@ const Header = () => {
          </div>
 
          <div>
+         <div className="sm:hidden">
           <Hero2></Hero2>
+          </div>
+          <div className="max-md:hidden">
+            <Products></Products>
+          </div>
           <div className=" items-center justify-items-center">
           <Image
           src={svg20}
