@@ -70,9 +70,9 @@ const Header = () => {
             className="ml-1 "
         />
                 <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href="/plp" target="_blank">About</Link></li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"> <Link href={"pricing"}>Blog</Link></li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Contact</li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Pages</li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"> <Link href={"/pricing"}>Blog</Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"><Link href={"/team"}>Contact</Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"><Link href={"/contact"}>Pages</Link></li>
             </ul>
          </div>
          <div className="flex sm:ml-6 lg:space-x-3 lg:ml-20 xl:ml-36 sm:space-x-2 max-sm:hidden">

@@ -57,7 +57,7 @@ const Footer = () => {
                     <p className="text-custom3 font-bold text-[14px] leading-[24px]">Blog</p>
                 </div>
                 </div>
-                <div className="mt-10 ml-10">
+                <div className="mt-10 ">
                 <h1 className=" font-bold text-[16px] leading-[24px]">Get In Touch</h1>
                 <div className="flex mt-4">
                 <div className="bg-custom2 text-custom3 pt-[15px] text-[14px] leading-[28px] text-center h-[58px] rounded-[5px] w-[204px] ">Your Email</div>

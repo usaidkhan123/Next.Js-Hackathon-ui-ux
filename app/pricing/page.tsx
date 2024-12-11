@@ -114,20 +114,24 @@ const Pricing = () => {
 
 
 
-         <div className="space-y-6 mt-20 sm:flex items-center justify-center justify-items-center">
+         <div className="space-y-6 mt-20 sm:flex max-md:flex-col items-center justify-center justify-items-center mb-20">
          <Image
           src={hsvg2}
           alt="company logo"
-       
+          width={300}
+          height={300}       
         /> <Image
         src={hsvg3}
         alt="company logo"
-     
+        width={300}
+        height={300} 
       /> <Image
       src={hsvg4}
       alt="company logo"
-   
+      width={300}
+      height={300} 
     />
+
          </div>
 
         <div className="bg-custom2 ">
@@ -174,7 +178,7 @@ const Pricing = () => {
     <div className="pt-24 items-center justify-center justify-items-center place-content-center">
         <p className="text-[40px] leading-[50px] font-bold text-center">Start your <br className="sm:hidden"/> 14 days free trial</p>
         <p className="text-[14px] mt-6 leading-[20px] text-custom4 text-center">Met minim Mollie non desert Alamo est sit <br className="sm:hidden"/>cliquey dolor do met sent. RELIT official<br className="sm:hidden"/> consequent.</p>
-        <button className="w-[186px] h-[52px] text-[14px]  leading-[22px] font-bold text-white rounded-[5px] ml-14 mt-8 bg-custom5b">Try it free now</button>
+        <button className="w-[186px] h-[52px] text-[14px]  leading-[22px] font-bold text-white rounded-[5px] ml-10 mt-8 bg-custom5b">Try it free now</button>
         <Image
       src={hsvg}
       alt="company logo"
