@@ -38,7 +38,7 @@ const Hero2 = () => {
             className=""
         />
                 </div>
-                <div className="mt-8 lg:flex max-sm:hidden xl:justify-items-center xl:items-center xl:justify-center">
+                <div className="mt-8 lg:flex max-sm:hidden xl:justify-items-center sm:space-x-2 xl:items-center xl:justify-center">
                     <div className="flex">
                 <Image
           src={svg5}
@@ -51,7 +51,7 @@ const Hero2 = () => {
             className="lg:ml-2 sm:ml-2"
         />
         </div>
-        <div className="lg:ml-0 sm:flex lg:mt-0 sm:items-center sm:justify-items-center sm:justify-center sm:space-x-10 sm:mt-8 lg:block">
+        <div className="lg:ml-0 sm:flex lg:mt-0 sm:items-center sm:justify-items-center sm:justify-center m sm:mt-8 lg:block">
         <Image
           src={svg7}
           alt="company logo"

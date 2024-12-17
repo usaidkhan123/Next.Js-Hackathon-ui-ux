@@ -36,22 +36,22 @@ const Team = () => {
 
             {/* Header */}
 
-             <div className="flex  mt-2 md:items-center md:justify-center md:justify-items-center">
+             <div className="flex  mt-2 items-center justify-center justify-items-center">
             <p className="  text-[24px] font-[Montserrat] leading-[32px] sm:ml-6 font-bold">Bandage</p>
             <div className=" flex  max-sm:hidden md:flex">
             <ul className="flex lg:space-x-[20px] lg:ml-40 xl:space-x-[45px] xl:ml-72 mt-1 sm:ml-14 sm:space-x-[12px] ">
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] font-bold text-gray-600"> <Link href="/pp" target="_blank">Home</Link></li>
-                <li  className=" text-[14px] font-[Montserrat] leading-[45px] font-bold text-gray-600">Shop</li>
+            <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Home</li>
+                <li  className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/pp"}>Shop</Link></li>
                 <Image
           src={svg10}
           alt="company logo"
             className="ml-1 "
         />
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] font-bold text-gray-600"><Link href="/plp" target="_blank">About</Link></li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] font-bold text-gray-600">Blog</li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] font-bold text-gray-600">Contact</li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] font-bold text-gray-600">Pages</li>
-            </ul>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/aboutus"}>About </Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/team"}>Team</Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"><Link href={"/contact"}>Contact</Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"><Link href={"/plp"}>Pages</Link></li>
+              </ul>
             <p className="text-[14px] leading-[22px] font-bold mt-4 text-custom5b ml-28 sm:ml-10 xl:ml-44 ">Login</p>
             <button className="w-[214px] h-[52px] bg-custom5b font-bold rounded-[5px] text-white ml-10 sm:ml-10">Become a member</button>
          </div>
@@ -79,9 +79,10 @@ const Team = () => {
          <div className=" justify-items-center mt-16 space-y-[30px] sm:hidden">
             <ul>
                 <li className=" text-[30px] font-[Montserrat] leading-[45px]  text-gray-600">Home</li>
-                <li  className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600">Product</li>
-                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600">Pricing </li>
-                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600">Contact</li>
+                <li  className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/pp"}>Product</Link></li>
+                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/pricing"}>Pricing</Link> </li>
+                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/contact"}>Contact</Link></li>
+            
             </ul>
          </div>
 
@@ -155,7 +156,7 @@ const Team = () => {
 
 
         <div>
-            <div className=' max-sm:hidden xl:flex items-center justify-center justify-items-center'>
+            <div className=' mt-6 max-sm:hidden xl:flex items-center justify-center justify-items-center'>
             <Image
         src={hsvg2}
         alt="company logo"

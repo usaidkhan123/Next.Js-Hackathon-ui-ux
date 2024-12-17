@@ -8,7 +8,7 @@ const Hero = () => {
             <Image
           src={svg1}
           alt="company logo"
-            className="w-screen"
+            className=""
         />
         </div>
         <div className='max-sm:hidden'>

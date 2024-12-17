@@ -82,18 +82,18 @@ const Hero = () => {
             <p className=" ml-10 text-[24px] font-[Montserrat] leading-[32px] font-bold">Bandage</p>
             <div className=" flex  max-sm:hidden">
             <ul className="flex lg:space-x-[30px] lg:ml-36 xl:space-x-[45px] xl:ml-72 sm:ml-24 sm:space-x-[12px] -mt-1">
-                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Home</li>
-                <li  className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600">Shop</li>
+            <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Home</li>
+                <li  className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/pp"}>Shop</Link></li>
                 <Image
           src={svg10}
           alt="company logo"
             className="ml-1 "
         />
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href="/plp" target="_blank">About</Link></li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600">Blog</li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Contact</li>
-                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600">Pages</li>
-            </ul>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/aboutus"}>About </Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/team"}>Team</Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"><Link href={"/contact"}>Contact</Link></li>
+                <li className=" text-[14px] font-[Montserrat] leading-[45px]  text-gray-600"><Link href={"/plp"}>Pages</Link></li>
+                   </ul>
          </div>
          <div className="flex sm:ml-6 lg:space-x-3 lg:ml-20 xl:ml-44 sm:space-x-2 max-sm:hidden">
          <Image
@@ -151,9 +151,10 @@ const Hero = () => {
          <div className=" justify-items-center mt-16 space-y-[30px] sm:hidden">
             <ul>
                 <li className=" text-[30px] font-[Montserrat] leading-[45px]  text-gray-600">Home</li>
-                <li  className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600">Product</li>
-                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600">Pricing </li>
-                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600">Contact</li>
+                <li  className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/pp"}>Product</Link></li>
+                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/pricing"}>Pricing</Link> </li>
+                <li className=" text-[30px] font-[Montserrat] leading-[45px] text-gray-600"><Link href={"/contact"}>Contact</Link></li>
+            
             </ul>
          </div>
 

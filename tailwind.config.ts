@@ -22,6 +22,7 @@ export default {
         custom5d:"rgba(35, 133, 109, 1)",
         custom6:"rgba(221, 221, 221, 1)",
         custom6a: "rgba(178, 227, 255, 1)",
+        custom6b:"rgba(37, 43, 66, 1)",
       },
     },
   },
